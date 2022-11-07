@@ -8,22 +8,22 @@
         <form>
             <div>
             <label>Enter First Name</label>
-            <input type="text" name="firstName" placeholder="Enter First Name"><!--user need to give input-->
+            <input type="text" name="firstName" placeholder="Enter First Name" required minlength="2" maxlength="12" autocomplete="off"><!--user need to give input-->
            </div>
            <br>
            <div>
             <label>Enter Last Name</label>
-            <input type="text" name="lastName" placeholder="Enter Last Name">
+            <input type="text" name="lastName" placeholder="Enter Last Name" required autocomplete="off">
         </div>
         <br>
         <div>  <!--br tag is break between lines-->
             <!--email-->
             <label>Enetr Email Id</label>
-            <input type="email" name="email" placeholder="Enter e-mail">
+            <input type="email" name="email" placeholder="Enter e-mail" autocomplete="off">
         </div>
         <br>
         <label>Enter your password</label>
-        <input type="password" name="password">
+        <input type="password" name="password" required minlength="8">
 
         <div>
             <br>
@@ -31,6 +31,14 @@
         <input type="radio" name="gender">Male
         <input type="radio" name="gender">Female
         <input type="radio" name="gender">Other
+    </div>
+    <br>
+
+    <div>
+        <label>Select Courses</label>
+        <input type="checkbox" checked>Java
+        <input type="checkbox" disabled>Python
+        <input type="checkbox">DotNet
     </div>
     <br>
     <div>
@@ -43,24 +51,43 @@
     </div>
     <br>
     <div>
-        <label>Enter date of birth</label>
-        <input type="date" name="date of birth">
+        <label>Enter DateofBirth</label>
+        <input type="date" name="DateofBirth" required>
+    </div>
+    <br>
+    <!--Age-->
+    <div>
+        <label>Enter Age</label>
+        <input type="number" name="age" min="0" max="100">
     </div>
     <br>
     <div>
-        <label>Enter Phone number</label>
-        <input type="text" name="phone number">
+        <label>Enter Mobile number</label>
+        <input type="tel" name="mobileNumber" placeholder="+91 8377988990" required minlength="10" maxlength="10" autocomplete="off">
+        
     </div>
     <br>
     <div>
         <label>Enter Address</label>
-        <input type="address">
+        <textarea rows="5" cols="10" required></textarea>
     </div>
-    <!--date of birth, mobile number, address-->
-    
+    <br>
+    <!--Nauklri Website-->
+    <div>
+        <label>Select file/Resume</label>
+        <input type="file" name="uploadfile" required>
+    </div>
+    <br>
+    <div>
+       <!--<input type="submit">--> 
+        <button type="Submit">Submit</button>
+        <button type="reset">reset</button>
+    </div>
         </form>
     </body>
 </html>
 
 
+<!--HTML 5 Validations-->
 
+<!--attribute to turn off autosuggestion in html5-->
