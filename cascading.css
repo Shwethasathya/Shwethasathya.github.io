@@ -1,0 +1,38 @@
+h1,h2{
+    color: blue;
+    font-size: medium;
+    text-transform: uppercase;
+}
+h3{
+    color: burlywood;
+    font-size: large;
+    text-transform: capitalize;
+}
+.classSelector{
+    color: blueviolet;
+    font-size: small;
+    text-transform: lowercase;
+
+}
+.classSelector1{
+    color: brown;
+    font-size: smaller;
+    text-transform: lowercase;
+}
+.classSelector2{
+    color: antiquewhite;
+     }
+.classSelector3{
+    color: antiquewhite;
+    
+}
+#header{
+    color:crimson;
+}
+h4{
+    font-size: 50px;
+}
+h5{
+    color: chartreuse;
+    font-size: 100px;
+}

@@ -1,0 +1,19 @@
+.box{
+   padding: 10px 10px 10px 10px;
+   border: 8px dotted red;
+   margin: 2px;
+   background-color: aqua;
+  
+}
+.rect{
+    border: 2px solid blueviolet;
+    height: 50px;
+    width: 100px;
+}
+.rect1{
+    border: 2px solid chartreuse;
+    height: 100px;
+    width: 200px;
+}
+
+

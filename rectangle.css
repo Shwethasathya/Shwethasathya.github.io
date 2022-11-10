@@ -1,0 +1,16 @@
+.box{
+    padding: 20px 30px 40px 50px;
+    border: 4px solid burlywood;
+    background-color: antiquewhite;
+}
+.box1{
+
+    padding: 30px 40px 50px 60px;
+    border: 4px double navy;
+    background-color: aqua;
+}
+.box2{
+    padding: 40px 50px 60px 70px;
+    border: solid hotpink;
+    background-color: honeydew;
+}
