@@ -1,6 +1,6 @@
 .box{
     padding: 20px 30px 40px 50px;
-    border: 4px solid burlywood;
+    border: 9px solid burlywood;
     background-color: antiquewhite;
 }
 .box1{
@@ -11,6 +11,26 @@
 }
 .box2{
     padding: 40px 50px 60px 70px;
-    border: solid hotpink;
+    border: 8px solid hotpink;
     background-color: honeydew;
 }
+/*body{
+    background-image: url('appu.jpg');
+    height: 200px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
+
+/*CSS combinators
+
+selector-
+
+1. descendant selector
+2. child selector
+3. adjacent sibling selector
+4. general sibling selector
+
+
+*/

@@ -1,0 +1,125 @@
+</* descendent selectoir*/
+div p{
+    color: crimson;
+    size: 2px;
+}
+/*child selector*/
+div >p{
+    color: greenyellow;
+}
+
+/*Adjacent sibling selector*/  
+div + p{
+    color: aqua; /*color will be applied for the paragraph which is next tp div*/
+
+}
+
+/*General sibling selector*/
+div ~ p {
+    /*color: rgb(250, 10, 46)*//*applied for paragraph outside the div tag*/
+color: #e246e2;
+
+}
+
+
+/*Position property
+top,bottom,right,left */
+.static {
+    position: static;
+    left: 100px;
+}
+
+.relative{
+    top: -240px;
+    right: -300px;
+    position: relative;
+   
+}
+.absolute{
+    left: 600px;
+    bottom: 0;
+    position: absolute;
+    
+}
+.topleft{
+    position: absolute;
+    left: 9px;
+    color: darkorange;
+}
+
+.imageparent{
+    position: relative;
+}
+.middle{
+    position: absolute;
+    left: 200px;
+    color: brown;
+}
+.topleft1{
+    position: absolute;
+    left: 100px;
+    color: brown;
+}
+.topleft2{
+    position: absolute;
+    left: 9px;
+    bottom: 20px;
+    color: brown;
+}
+.topleft3{
+    position: absolute;
+    left: 9px;
+    bottom: 80px;
+    color: #e246e2;
+}
+.topleft4{
+position: absolute;
+left: 100px;
+bottom: 9px;
+color: brown;
+}
+.topleft5{
+    position: absolute;
+    left: 100px;
+    bottom: 80px;
+    color: blue;
+}
+.topleft6{
+    position: absolute;
+    left: 210px;
+    bottom: 80px;
+    color: blue;
+}
+.topleft7{
+    position: absolute;
+    left: 185px;
+    bottom: 9px;
+    color: blue;
+}
+.imagecircle{
+    border-radius: 0px;
+}
+body{
+    margin: 0;
+}
+/* Color property*/
+
+
+
+
+
+
+
+
+
+/*CSS combinators
+
+selector-
+
+1. descendant selector
+2. child selector
+3. adjacent sibling selector
+4. general sibling selector
+
+
+*/
