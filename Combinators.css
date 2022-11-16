@@ -44,7 +44,7 @@ top,bottom,right,left */
 .topleft{
     position: absolute;
     left: 9px;
-    color: darkorange;
+    color: #e246e2;
 }
 
 .imageparent{
@@ -53,55 +53,79 @@ top,bottom,right,left */
 .middle{
     position: absolute;
     left: 200px;
-    color: brown;
+    color: #e246e2;
 }
 .topleft1{
     position: absolute;
     left: 100px;
-    color: brown;
+    color: #e246e2;
 }
 .topleft2{
     position: absolute;
     left: 9px;
     bottom: 20px;
-    color: brown;
+    color: #e246e2;
 }
 .topleft3{
     position: absolute;
     left: 9px;
-    bottom: 80px;
+    bottom: 150px;
     color: #e246e2;
 }
 .topleft4{
 position: absolute;
 left: 100px;
-bottom: 9px;
-color: brown;
+bottom: 20px;
+color: #e246e2;
 }
 .topleft5{
     position: absolute;
     left: 100px;
-    bottom: 80px;
-    color: blue;
+    bottom: 150px;
+    color: #e246e2;
 }
 .topleft6{
     position: absolute;
     left: 210px;
-    bottom: 80px;
-    color: blue;
+    bottom: 150px;
+    color: #e246e2;
 }
 .topleft7{
     position: absolute;
     left: 185px;
-    bottom: 9px;
-    color: blue;
+    bottom: 20px;
+    color: #e246e2;
 }
 .imagecircle{
-    border-radius: 0px;
+    border-radius: 5px;
+  
 }
 body{
     margin: 0;
 }
+.fixed{
+    position: fixed;
+    top:0;
+    right: 0;
+    background-color: aquamarine;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 120px;
+    background-color: cadetblue;
+}
+ul{
+    list-style-type: none;
+   color: black;
+   background-color: blanchedalmond;
+}
+li{
+    padding :5px
+    margin: 0;
+}
+
+
 /* Color property*/
 
 

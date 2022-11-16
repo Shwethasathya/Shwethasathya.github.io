@@ -1,0 +1,45 @@
+.header-left{
+    margin: 0;
+    font-size: 6px;
+    color: black;
+}
+.header-left1 h2{
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    background-color: cornflowerblue;
+}
+.header-left2 h1{
+font-size: 18px;
+color: white;
+background-color:cornflowerblue;
+}
+.header-left3 h1{
+    font-size: 18px;
+    color: white;
+    background-color:cornflowerblue;
+    text-align: left;
+}
+.header-left4 h1{
+    font-size: 18px;
+    color: white;
+    background-color: cornflowerblue;
+}
+.header-left5 h1{
+    font-size: 18px;
+    color: white;
+    background-color: cornflowerblue;
+}
+.header-left5 h2{
+    font-size: 18px;
+}
+.header h2{
+    font-size: 18px;
+    color: white;
+    background-color: cornflowerblue;
+}
+.header2 h2{
+    font-size: 18px;
+    background-color: cornflowerblue;
+    color:white;
+}
