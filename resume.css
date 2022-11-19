@@ -7,7 +7,7 @@
     padding: 0;
     color: white;
     font-size: 18px;
-    background-color: cornflowerblue;
+    background-color: rgb(82, 112, 168);
 }
 .header-left2 h1{
 font-size: 18px;
@@ -32,6 +32,7 @@ background-color:cornflowerblue;
 }
 .header-left5 h2{
     font-size: 18px;
+    
 }
 .header h2{
     font-size: 18px;
@@ -42,4 +43,20 @@ background-color:cornflowerblue;
     font-size: 18px;
     background-color: cornflowerblue;
     color:white;
+}
+body{
+    background-color: brown;
+}
+@media  screen and (min-width:480px) {
+    body{
+        background-color: antiquewhite;
+    }
+        @media  screen and (min-width:480px) {
+            body{
+                background-color:aliceblue;
+            }
+            
+        }
+    }
+    
 }
