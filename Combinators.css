@@ -1,4 +1,4 @@
-</* descendent selectoir*/
+/* descendent selectoir*/
 div p{
     color: crimson;
     size: 2px;
@@ -10,13 +10,14 @@ div >p{
 
 /*Adjacent sibling selector*/  
 div + p{
-    color: aqua; /*color will be applied for the paragraph which is next tp div*/
+    color: aqua; /*color will be applied for the paragraph which is next to div*/
 
 }
 
 /*General sibling selector*/
 div ~ p {
-    /*color: rgb(250, 10, 46)*//*applied for paragraph outside the div tag*/
+    /*color: rgb(250, 
+    10, 46)*//*applied for paragraph outside the div tag*/
 color: #e246e2;
 
 }
@@ -26,18 +27,18 @@ color: #e246e2;
 top,bottom,right,left */
 .static {
     position: static;
-    left: 100px;
+    left: 1000px;
 }
 
 .relative{
-    top: -240px;
+    top: -200px;
     right: -300px;
     position: relative;
    
 }
 .absolute{
-    left: 600px;
-    bottom: 0;
+    left: 800px;
+    bottom: 200px;
     position: absolute;
     
 }
@@ -127,14 +128,6 @@ li{
 
 
 /* Color property*/
-
-
-
-
-
-
-
-
 
 /*CSS combinators
 
